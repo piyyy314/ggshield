@@ -1,4 +1,4 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+or format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
 	"name": "Python 3",
@@ -29,7 +29,8 @@
 				"ms-python.black-formatter",
 				"ms-python.isort",
 				"ms-python.vscode-pylance",
-				"pdm-project.pdm"
+				"pdm-project.pdm",
+				"GitHub.copilot"
 			],
 			"settings": {
 				"python.defaultInterpreterPath": "/usr/local/bin/python",
@@ -45,3 +46,4 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
+
